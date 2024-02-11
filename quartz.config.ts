@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "mithanaepedia.samueljsb.co.uk",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".git"],
     defaultDateType: "created",
     theme: {
       cdnCaching: true,
