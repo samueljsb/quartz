@@ -87,7 +87,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       if (cur === "__SENTINEL") {
         depth--
         wl.push("__SENTINEL")
-      } else {
+      } else if (!cur.startsWith("sessions/")) {
         neighbourhood.add(cur)
         const outgoing = links.filter((l) => l.source === cur)
         const incoming = links.filter((l) => l.target === cur)
