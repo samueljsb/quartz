@@ -28,12 +28,24 @@
   --callout-icon-example: url('data:image/svg+xml; utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg> ');
   --callout-icon-quote: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>');
   --callout-icon-fold: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C/polyline%3E%3C/svg%3E');
+  --callout-icon-swords: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-swords"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" x2="9" y1="14" y2="18"/><line x1="7" x2="4" y1="17" y2="20"/><line x1="3" x2="5" y1="19" y2="21"/></svg>');
+  --callout-icon-shield-alert: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-alert"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>');
+  --callout-icon-shield-question: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-question"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>');
+  --callout-icon-shield-check: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>');
+  --callout-icon-chevrons-up: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path d="m17 11-5-5-5 5"/><path d="m17 18-5-5-5 5"/></svg>');
+  --callout-icon-cross: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cross"><path d="M11 2a2 2 0 0 0-2 2v5H4a2 2 0 0 0-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2v-5h5a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-5V4a2 2 0 0 0-2-2h-2z"/></svg>');
+  --callout-icon-moon: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>');
+
 
   &[data-callout] {
     --color: #448aff;
     --border: #448aff44;
     --bg: #448aff10;
     --callout-icon: var(--callout-icon-note);
+  }
+
+  &[data-callout="levelup"] {
+    --callout-icon: var(--callout-icon-chevrons-up);
   }
 
   &[data-callout="abstract"] {
@@ -62,6 +74,7 @@
     --callout-icon: var(--callout-icon-tip);
   }
 
+  &[data-callout="victory"],
   &[data-callout="success"] {
     --color: #09ad7a;
     --border: #09ad7144;
@@ -69,11 +82,26 @@
     --callout-icon: var(--callout-icon-success);
   }
 
+  &[data-callout="quest"],
+  &[data-callout="questaccepted"],
+  &[data-callout="questcompleted"],
   &[data-callout="question"] {
     --color: #dba642;
     --border: #dba64244;
     --bg: #dba64210;
     --callout-icon: var(--callout-icon-question);
+  }
+
+  &[data-callout="quest"] {
+    --callout-icon: var(--callout-icon-shield-question);
+  }
+
+  &[data-callout="questaccepted"] {
+    --callout-icon: var(--callout-icon-shield-alert);
+  }
+
+  &[data-callout="questcompleted"] {
+    --callout-icon: var(--callout-icon-shield-check);
   }
 
   &[data-callout="warning"] {
@@ -83,6 +111,7 @@
     --callout-icon: var(--callout-icon-warning);
   }
 
+  &[data-callout="combat"],
   &[data-callout="failure"],
   &[data-callout="danger"],
   &[data-callout="bug"] {
@@ -107,10 +136,31 @@
     --callout-icon: var(--callout-icon-example);
   }
 
+  &[data-callout="sending"],
   &[data-callout="quote"] {
     --color: var(--secondary);
     --border: var(--lightgray);
     --callout-icon: var(--callout-icon-quote);
+  }
+
+  &[data-callout="combat"],
+  &[data-callout="victory"] {
+    --callout-icon: var(--callout-icon-swords);
+  }
+
+  &[data-callout="shortrest"],
+  &[data-callout="longrest"] {
+    --color: #A0A0DC;
+    --border: #A0A0DC44;
+    --bg: #A0A0DC10;
+  }
+
+  &[data-callout="shortrest"] {
+    --callout-icon: var(--callout-icon-cross);
+  }
+
+  &[data-callout="longrest"] {
+    --callout-icon: var(--callout-icon-moon);
   }
 
   &.is-collapsed > .callout-title > .fold-callout-icon {
