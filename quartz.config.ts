@@ -6,9 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "🛡️ Mithanaepedia",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "mithanaepedia.samueljsb.co.uk",
     ignorePatterns: ["private", "templates", ".obsidian"],
